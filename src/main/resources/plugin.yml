@@ -1,0 +1,12 @@
+name: LifeSteal
+version: 1.0
+main: com.stormai.plugin.Main
+api-version: 1.21
+commands:
+  lifesteal:
+    description: LifeSteal commands
+    usage: /lifesteal withdraw <amount>
+permissions:
+  lifesteal.use:
+    description: Allows use of lifesteal commands
+    default: true
